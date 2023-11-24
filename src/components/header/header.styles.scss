@@ -1,0 +1,37 @@
+.nav-menu-container {
+  background-color: #d6b400;
+}
+
+.nav-menu {
+  display: flex;
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+
+  a {
+    text-decoration: none;
+    &:focus,
+    &:hover,
+    &:visited {
+      color: black;
+    }
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    width: 90px;
+    // height: 48px;
+  }
+
+  ul {
+    list-style-type: none;
+    // margin: 0;
+    margin: auto;
+
+    li {
+      display: inline-block;
+      margin: 0 1rem;
+      cursor: pointer;
+    }
+  }
+}
